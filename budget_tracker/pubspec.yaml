@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   ionicons: ^0.1.2
+  # flutter_icons: ^1.1.0
   animated_bottom_navigation_bar: ^0.3.2
 
 dev_dependencies:

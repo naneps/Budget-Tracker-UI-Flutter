@@ -1,4 +1,5 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:budget_tracker/pages/daily_page.dart';
 import 'package:budget_tracker/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
@@ -35,9 +36,7 @@ class _RootAppState extends State<RootApp> {
     return IndexedStack(
       index: pageIndex,
       children: const [
-        Center(
-          child: Text("Daily Page"),
-        ),
+        DailyPage(),
         Center(
           child: Text("Stats Page"),
         ),
