@@ -218,23 +218,24 @@ class _DailyPageState extends State<DailyPage> {
           Padding(
             padding: EdgeInsets.only(left: 20, right: 20),
             child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Text(
-                    "Total",
-                    style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
-                        color: black.withOpacity(0.4)),
-                  ),
-                  Text(
-                    "\$1700.00",
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.black),
-                  )
-                ]),
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                Text(
+                  "Total",
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                      color: black.withOpacity(0.4)),
+                ),
+                Text(
+                  "\$1700.00",
+                  style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black),
+                )
+              ],
+            ),
           )
         ],
       ),

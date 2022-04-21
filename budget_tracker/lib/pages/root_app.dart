@@ -1,5 +1,6 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:budget_tracker/pages/daily_page.dart';
+import 'package:budget_tracker/pages/stats_page.dart';
 import 'package:budget_tracker/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
@@ -37,9 +38,7 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: const [
         DailyPage(),
-        Center(
-          child: Text("Stats Page"),
-        ),
+        StatsPage(),
         Center(
           child: Text("Budget Page"),
         ),
